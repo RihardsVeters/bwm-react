@@ -61,9 +61,8 @@ router.delete('/:id', UserCtrl.authMiddleware, function(req,res){
                 }
                 return res.json({'status': 'deleted'});
             
-            });
-            
-    })
+            });   
+    });
 });
 
 
